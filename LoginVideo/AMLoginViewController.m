@@ -1,16 +1,16 @@
 //
-//  ViewController.m
+//  AMLoginViewController.m
 //  LoginVideo
 //
 //  Created by AMarliac on 2014-04-02.
 //  Copyright (c) 2014 AMarliac. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "AMLoginViewController.h"
 
 
 
-@interface ViewController ()
+@interface AMLoginViewController ()
 {
     AVPlayer * avPlayer;
     AVPlayerLayer *avPlayerLayer;
@@ -28,7 +28,7 @@
 
 @end
 
-@implementation ViewController
+@implementation AMLoginViewController
 
 - (void)viewDidLoad
 {

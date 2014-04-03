@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1FCCF9E3-016E-4B52-8032-6398A0934182</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LoginVideo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D021121F-CB25-4240-8462-60A0849BFAAD</key>
+		<string>https://github.com/mtonio91/AMLoginViewController.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LoginVideo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D021121F-CB25-4240-8462-60A0849BFAAD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mtonio91/AMLoginViewController.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D021121F-CB25-4240-8462-60A0849BFAAD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D021121F-CB25-4240-8462-60A0849BFAAD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AMLoginViewController</string>
+		</dict>
+	</array>
+</dict>
+</plist>

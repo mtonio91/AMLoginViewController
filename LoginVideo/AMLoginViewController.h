@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AMLoginViewController.h
 //  LoginVideo
 //
 //  Created by AMarliac on 2014-04-02.
@@ -12,7 +12,7 @@
 #import "BlurView.h"
 
 
-@interface ViewController : UIViewController<UIGestureRecognizerDelegate>
+@interface AMLoginViewController : UIViewController<UIGestureRecognizerDelegate>
 
 @property (strong, nonatomic) BlurView *usernameView;
 @property (strong, nonatomic) BlurView *passwordView;
