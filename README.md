@@ -4,8 +4,8 @@ AMLoginViewController
 I originally created this controller for a school project in order to deliver the coolest app possible. I hope this will be useful for other people.
 
 
-![Screen1](https://github.com/mtonio91/AMLoginViewController/blob/master/screenshot1.png)
-![Screen2](https://github.com/mtonio91/AMLoginViewController/blob/master/screenshot2.png)
+![Screen1](https://raw.githubusercontent.com/mtonio91/AMLoginViewController/master/screenshot1.png)
+![Screen2](https://raw.githubusercontent.com/mtonio91/AMLoginViewController/master/screenshot2.png)
 
 
 
