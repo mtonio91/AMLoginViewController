@@ -39,7 +39,7 @@
     // ---------------------------AVPLAYER STUFF -------------------------------
 
     
-    NSString * ressource = [[NSBundle mainBundle] pathForResource:@"timeLapseMini" ofType:@".m4v"];
+    NSString * ressource = [[NSBundle mainBundle] pathForResource:@"demoVideo" ofType:@".mp4"];
     
 
     NSURL * urlPathOfVideo = [NSURL fileURLWithPath:ressource];
@@ -85,6 +85,8 @@
     
     
     _blurFilter = [[GPUImageiOSBlurFilter alloc] init];
+    //change the float value in order to change the blur effect
+    _blurFilter.blurRadiusInPixels = 3.0f;
     _videoBuffer = [[GPUImageBuffer alloc] init];
     [_videoBuffer setBufferSize:1];
     
@@ -131,15 +133,22 @@
 
 - (void) procesBlurWithBackgroundVideo
 {
-    _liveVideo = [[GPUImageMovie alloc] initWithPlayerItem:avPlayer.currentItem];
+
     
-    [_liveVideo addTarget:_videoBuffer];
-    [_videoBuffer addTarget:_blurFilter];
+    //PROCESS THE BLURING ON A BACKGROUND THREAD IN ORDER TO KEEP BETTER PERFORMANCES
+    //I'LL IMPROVE THIS PART SOON
     
-    [_blurFilter addTarget:_usernameView];
-    [_blurFilter addTarget:_passwordView];
-    
-    [_liveVideo startProcessing];
+    dispatch_async(dispatch_get_main_queue(), ^(void){
+        _liveVideo = [[GPUImageMovie alloc] initWithPlayerItem:avPlayer.currentItem];
+        
+        [_liveVideo addTarget:_videoBuffer];
+        [_videoBuffer addTarget:_blurFilter];
+        
+        [_blurFilter addTarget:_usernameView];
+        [_blurFilter addTarget:_passwordView];
+        [_liveVideo startProcessing];
+    });
+
 }
 
 

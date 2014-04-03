@@ -35,7 +35,7 @@
 		D296298E18EC64CB0091800B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D296298C18EC64CB0091800B /* InfoPlist.strings */; };
 		D296299018EC64CB0091800B /* LoginVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D296298F18EC64CB0091800B /* LoginVideoTests.m */; };
 		D296299A18EC66E30091800B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D296299918EC66E30091800B /* AVFoundation.framework */; };
-		D296299F18EC6C030091800B /* timeLapse.m4v in Resources */ = {isa = PBXBuildFile; fileRef = D296299B18EC68BD0091800B /* timeLapse.m4v */; };
+		D2EE725118EDBC530000D56E /* demoVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D2EE725018EDBC530000D56E /* demoVideo.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,7 +83,7 @@
 		D296298D18EC64CB0091800B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D296298F18EC64CB0091800B /* LoginVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVideoTests.m; sourceTree = "<group>"; };
 		D296299918EC66E30091800B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		D296299B18EC68BD0091800B /* timeLapse.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = timeLapse.m4v; sourceTree = "<group>"; };
+		D2EE725018EDBC530000D56E /* demoVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demoVideo.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,8 +219,8 @@
 		D2D2EA0918EC7F7D006C1289 /* Video */ = {
 			isa = PBXGroup;
 			children = (
+				D2EE725018EDBC530000D56E /* demoVideo.mp4 */,
 				D259235218ECA29700747F53 /* timeLapseMini.m4v */,
-				D296299B18EC68BD0091800B /* timeLapse.m4v */,
 			);
 			name = Video;
 			sourceTree = "<group>";
@@ -304,7 +304,6 @@
 				D259235318ECA2A900747F53 /* timeLapseMini.m4v in Resources */,
 				D259235F18ECA9D100747F53 /* lock@2x.png in Resources */,
 				D25976AE18EC7ACA0085479D /* testImg@2x.png in Resources */,
-				D296299F18EC6C030091800B /* timeLapse.m4v in Resources */,
 				D259236018ECA9D100747F53 /* user.png in Resources */,
 				D25976B118EC7D6F0085479D /* testImg2.png in Resources */,
 				D25976B218EC7D6F0085479D /* testImg2@2x.png in Resources */,
@@ -313,6 +312,7 @@
 				D296297818EC64C90091800B /* Main.storyboard in Resources */,
 				D259235E18ECA9D100747F53 /* lock.png in Resources */,
 				D25976AD18EC7ACA0085479D /* testImg.png in Resources */,
+				D2EE725118EDBC530000D56E /* demoVideo.mp4 in Resources */,
 				D259236118ECA9D100747F53 /* user@2x.png in Resources */,
 				D259235918ECA4D900747F53 /* logoclubby@2x.png in Resources */,
 				D259235818ECA4D900747F53 /* logoclubby.png in Resources */,
