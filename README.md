@@ -3,8 +3,13 @@ AMLoginViewController
 
 I originally created this controller for a school project in order to deliver the coolest app possible. I hope this will be useful for other people.
 
-NB: this is login view, so it's not supposed to be used a long time,  the big cpu use because of the blur effect processing shouldn't have a this important impact on the mobile's battery life.
 
+![Screen1](https://github.com/mtonio91/AMLoginViewController/master/screenshot1.png)
+![Screen2](https://github.com/mtonio91/AMLoginViewController/master/screenshot2.png)
+
+
+
+NB: this is login view, so it's not supposed to be used a long time,  the big cpu use because of the blur effect processing shouldn't have a this important impact on the mobile's battery life.
 
 I'm using 
 - GPUImage Framework
