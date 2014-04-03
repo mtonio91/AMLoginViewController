@@ -11,10 +11,26 @@ I originally created this controller for a school project in order to deliver th
 
 NB: this is login view, so it's not supposed to be used a long time,  the big cpu use because of the blur effect processing shouldn't have a this important impact on the mobile's battery life.
 
-I'm using 
+##Installation
+
+It uses : 
 - GPUImage Framework
 - AVFundation Framework
 
+Be sure to get those notifications in your appDelegate, in order to resume the video on app resume
+
+```objective-c
+
+- (void)applicationWillResignActive:(UIApplication *)application
+{
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"PauseBgVideo"object:self];
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"ResumeBgVideo"object:self];
+}
+```
 
 You can disable blur effect in order to improve CPU use (from 50% to ~0%)
 
