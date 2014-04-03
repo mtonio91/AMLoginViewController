@@ -86,7 +86,8 @@
     
     _blurFilter = [[GPUImageiOSBlurFilter alloc] init];
     //change the float value in order to change the blur effect
-    _blurFilter.blurRadiusInPixels = 3.0f;
+    _blurFilter.blurRadiusInPixels = 10.0f;
+    _blurFilter.downsampling = 1.0f;
     _videoBuffer = [[GPUImageBuffer alloc] init];
     [_videoBuffer setBufferSize:1];
     
