@@ -1,10 +1,9 @@
 AMLoginViewController
 ==================
 
-I originally created this controller for a school project in order to deliver the most neat app possible.
-I hope this will be useful for other people.
+I originally created this controller for a school project in order to deliver the coolest app possible. I hope this will be useful for other people.
 
-NB: this is login view, so it's not supposed to be used a long time, so the big cpu use because of the blur processing shouldn't have a this impotant impact on the user's battery life. 
+NB: this is login view, so it's not supposed to be used a long time,  the big cpu use because of the blur effect processing shouldn't have a this important impact on the mobile's battery life.
 
 
 I'm using 
