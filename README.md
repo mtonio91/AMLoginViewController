@@ -32,7 +32,7 @@ Be sure to get those notifications in your appDelegate, in order to resume the v
 }
 ```
 
-You can disable blur effect in order to improve CPU use (from 50% to ~0%)
+You can disable blur effect in order to improve CPU use (from 25% to ~0%)
 
 NB when blur effect is activated, the video won't work on the simulator. You have to compile it on a device. Or just disable the blur effect to make it work on the simulator.
 
