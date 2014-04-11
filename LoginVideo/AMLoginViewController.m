@@ -86,7 +86,7 @@
     
     _blurFilter = [[GPUImageiOSBlurFilter alloc] init];
     //change the float value in order to change the blur effect
-    _blurFilter.blurRadiusInPixels = 10.0f;
+    _blurFilter.blurRadiusInPixels = 12.0f;
     _blurFilter.downsampling = 1.0f;
     _videoBuffer = [[GPUImageBuffer alloc] init];
     [_videoBuffer setBufferSize:1];
@@ -94,7 +94,6 @@
     // ---------------------------------------------------------------------
 
     
-
     [self setViewItems];
     
     //GESTURE - Dismiss the keyboard when tapped on the controller's view
@@ -103,7 +102,9 @@
     tap.delegate = self;
     
     //start processing BLUR with background video
-    [self procesBlurWithBackgroundVideo];
+    [self procesBlurWithBackgroundVideoOnView:_usernameView];
+    [self procesBlurWithBackgroundVideoOnView:_passwordView];
+
 
 }
 
@@ -121,7 +122,8 @@
 {
     [avPlayer seekToTime:time toleranceBefore:kCMTimeZero toleranceAfter:kCMTimeZero];
     [avPlayer play];
-    [self procesBlurWithBackgroundVideo];
+    [self procesBlurWithBackgroundVideoOnView:_usernameView];
+    [self procesBlurWithBackgroundVideoOnView:_passwordView];
 }
 
 
@@ -132,24 +134,15 @@
 }
 
 
-- (void) procesBlurWithBackgroundVideo
+- (void) procesBlurWithBackgroundVideoOnView:(BlurView*)view
 {
 
-    
-    //PROCESS THE BLURING ON A BACKGROUND THREAD IN ORDER TO KEEP BETTER PERFORMANCES
-    //I'LL IMPROVE THIS PART SOON
-    
-    dispatch_async(dispatch_get_main_queue(), ^(void){
         _liveVideo = [[GPUImageMovie alloc] initWithPlayerItem:avPlayer.currentItem];
         
         [_liveVideo addTarget:_videoBuffer];
         [_videoBuffer addTarget:_blurFilter];
-        
-        [_blurFilter addTarget:_usernameView];
-        [_blurFilter addTarget:_passwordView];
+        [_blurFilter addTarget:view];
         [_liveVideo startProcessing];
-    });
-
 }
 
 

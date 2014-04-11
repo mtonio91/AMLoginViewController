@@ -14,7 +14,6 @@
 		D259235F18ECA9D100747F53 /* lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D259235B18ECA9D100747F53 /* lock@2x.png */; };
 		D259236018ECA9D100747F53 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = D259235C18ECA9D100747F53 /* user.png */; };
 		D259236118ECA9D100747F53 /* user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D259235D18ECA9D100747F53 /* user@2x.png */; };
-		D259236318EDABEE00747F53 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D259236218EDABEE00747F53 /* GPUImage.framework */; };
 		D25976B518EC7E400085479D /* BlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25976B418EC7E400085479D /* BlurView.m */; };
 		D296296518EC64C90091800B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D296296418EC64C90091800B /* Foundation.framework */; };
 		D296296718EC64C90091800B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D296296618EC64C90091800B /* CoreGraphics.framework */; };
@@ -32,6 +31,7 @@
 		D296299018EC64CB0091800B /* LoginVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D296298F18EC64CB0091800B /* LoginVideoTests.m */; };
 		D296299A18EC66E30091800B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D296299918EC66E30091800B /* AVFoundation.framework */; };
 		D2EE725118EDBC530000D56E /* demoVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D2EE725018EDBC530000D56E /* demoVideo.mp4 */; };
+		D2EF9AF518F7132700F176E6 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2EF9AF418F7132700F176E6 /* GPUImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,6 @@
 		D259235B18ECA9D100747F53 /* lock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock@2x.png"; sourceTree = "<group>"; };
 		D259235C18ECA9D100747F53 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		D259235D18ECA9D100747F53 /* user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user@2x.png"; sourceTree = "<group>"; };
-		D259236218EDABEE00747F53 /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GPUImage.framework; sourceTree = "<group>"; };
 		D25976B318EC7E400085479D /* BlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurView.h; sourceTree = "<group>"; };
 		D25976B418EC7E400085479D /* BlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurView.m; sourceTree = "<group>"; };
 		D296296118EC64C90091800B /* LoginVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +75,7 @@
 		D296298F18EC64CB0091800B /* LoginVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVideoTests.m; sourceTree = "<group>"; };
 		D296299918EC66E30091800B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D2EE725018EDBC530000D56E /* demoVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demoVideo.mp4; sourceTree = "<group>"; };
+		D2EF9AF418F7132700F176E6 /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GPUImage.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D296299A18EC66E30091800B /* AVFoundation.framework in Frameworks */,
-				D259236318EDABEE00747F53 /* GPUImage.framework in Frameworks */,
+				D2EF9AF518F7132700F176E6 /* GPUImage.framework in Frameworks */,
 				D296296718EC64C90091800B /* CoreGraphics.framework in Frameworks */,
 				D296296918EC64C90091800B /* UIKit.framework in Frameworks */,
 				D296296518EC64C90091800B /* Foundation.framework in Frameworks */,
@@ -135,7 +135,7 @@
 		D296296318EC64C90091800B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D259236218EDABEE00747F53 /* GPUImage.framework */,
+				D2EF9AF418F7132700F176E6 /* GPUImage.framework */,
 				D296299918EC66E30091800B /* AVFoundation.framework */,
 				D296296418EC64C90091800B /* Foundation.framework */,
 				D296296618EC64C90091800B /* CoreGraphics.framework */,
@@ -452,6 +452,7 @@
 					"$(inherited)",
 					/Users/freelance/Desktop/LoginVideo,
 					/Users/freelance/Desktop/CubbyHole/LoginVideo,
+					/Users/freelance/Desktop/AMLoginViewController,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoginVideo/LoginVideo-Prefix.pch";
@@ -470,6 +471,7 @@
 					"$(inherited)",
 					/Users/freelance/Desktop/LoginVideo,
 					/Users/freelance/Desktop/CubbyHole/LoginVideo,
+					/Users/freelance/Desktop/AMLoginViewController,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoginVideo/LoginVideo-Prefix.pch";
