@@ -11,6 +11,14 @@ I originally created this controller for a school project in order to deliver th
 
 NB: this is login view, so it's not supposed to be used a long time,  the big cpu use because of the blur effect processing shouldn't have a this important impact on the mobile's battery life.
 
+##Known issues
+
+
+    - when blur effect is activated, the video won't work on the simulator. You have to compile it on a device. Or just disable the blur effect to make it work on the simulator.
+
+You can disable blur effect in order to improve CPU use (from 25% to ~0%)
+
+
 ##Installation
 
 It uses : 
@@ -32,8 +40,5 @@ Be sure to get those notifications in your appDelegate, in order to resume the v
 }
 ```
 
-You can disable blur effect in order to improve CPU use (from 25% to ~0%)
-
-NB when blur effect is activated, the video won't work on the simulator. You have to compile it on a device. Or just disable the blur effect to make it work on the simulator.
 
 Antoine
