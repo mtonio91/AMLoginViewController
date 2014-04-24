@@ -16,6 +16,8 @@ NB: this is login view, so it's not supposed to be used a long time,  the big cp
 
 • when blur effect is activated, the video won't work on the simulator. You have to compile it on a device. Or just disable the blur effect to make it work on the simulator.
 
+• arm64 devices seems not compile the demo project because of GPUImage which doesn't support it yet. 
+
 You can disable blur effect in order to improve CPU use (from 25% to ~0%)
 
 
