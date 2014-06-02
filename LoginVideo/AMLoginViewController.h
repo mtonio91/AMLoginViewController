@@ -11,11 +11,15 @@
 #import <GPUImage/GPUImage.h>
 #import "BlurView.h"
 
+#import <FacebookSDK/FacebookSDK.h>
 
-@interface AMLoginViewController : UIViewController<UIGestureRecognizerDelegate>
+@interface AMLoginViewController : UIViewController<UIGestureRecognizerDelegate,FBLoginViewDelegate,UIActionSheetDelegate,UITextFieldDelegate>
 
 @property (strong, nonatomic) BlurView *usernameView;
 @property (strong, nonatomic) BlurView *passwordView;
 @property (strong, nonatomic) UIView *sendButtonView;
+@property (strong, nonatomic) UIView *loginWithFBView;
+@property (strong, nonatomic) UIView *loginWithTWTView;
+
 
 @end

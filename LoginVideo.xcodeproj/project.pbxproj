@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D13FE68193BB8A100C07162 /* TWAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D13FE58193BB8A100C07162 /* TWAPIManager.m */; };
+		3D13FE69193BB8A100C07162 /* TWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D13FE5A193BB8A100C07162 /* TWAppDelegate.m */; };
+		3D13FE6A193BB8A100C07162 /* TWSignedRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D13FE5C193BB8A100C07162 /* TWSignedRequest.m */; settings = {COMPILER_FLAGS = "-D'TWITTER_CONSUMER_KEY=@\"$(TWITTER_CONSUMER_KEY)\"' -D'TWITTER_CONSUMER_SECRET=@\"$(TWITTER_CONSUMER_SECRET)\"'"; }; };
+		3D13FE6B193BB8A100C07162 /* TWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D13FE5E193BB8A100C07162 /* TWViewController.m */; };
+		3D13FE6C193BB8A100C07162 /* TWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D13FE5F193BB8A100C07162 /* TWViewController.xib */; };
+		3D13FE6D193BB8A100C07162 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D13FE63193BB8A100C07162 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3D13FE6E193BB8A100C07162 /* OAuth+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D13FE65193BB8A100C07162 /* OAuth+Additions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3D13FE6F193BB8A100C07162 /* OAuthCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D13FE67193BB8A100C07162 /* OAuthCore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3D13FE71193BB9A300C07162 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D13FE70193BB9A300C07162 /* Twitter.framework */; };
+		3D13FE73193BB9A800C07162 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D13FE72193BB9A800C07162 /* Accounts.framework */; };
+		3D13FE75193BB9C600C07162 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D13FE74193BB9C600C07162 /* FacebookSDK.framework */; };
 		D259235318ECA2A900747F53 /* timeLapseMini.m4v in Resources */ = {isa = PBXBuildFile; fileRef = D259235218ECA29700747F53 /* timeLapseMini.m4v */; };
 		D259235818ECA4D900747F53 /* logoclubby.png in Resources */ = {isa = PBXBuildFile; fileRef = D259235618ECA4D900747F53 /* logoclubby.png */; };
 		D259235918ECA4D900747F53 /* logoclubby@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D259235718ECA4D900747F53 /* logoclubby@2x.png */; };
@@ -45,6 +56,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D13FE57193BB8A100C07162 /* TWAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWAPIManager.h; sourceTree = "<group>"; };
+		3D13FE58193BB8A100C07162 /* TWAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWAPIManager.m; sourceTree = "<group>"; };
+		3D13FE59193BB8A100C07162 /* TWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWAppDelegate.h; sourceTree = "<group>"; };
+		3D13FE5A193BB8A100C07162 /* TWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWAppDelegate.m; sourceTree = "<group>"; };
+		3D13FE5B193BB8A100C07162 /* TWSignedRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWSignedRequest.h; sourceTree = "<group>"; };
+		3D13FE5C193BB8A100C07162 /* TWSignedRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWSignedRequest.m; sourceTree = "<group>"; };
+		3D13FE5D193BB8A100C07162 /* TWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWViewController.h; sourceTree = "<group>"; };
+		3D13FE5E193BB8A100C07162 /* TWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWViewController.m; sourceTree = "<group>"; };
+		3D13FE5F193BB8A100C07162 /* TWViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWViewController.xib; sourceTree = "<group>"; };
+		3D13FE62193BB8A100C07162 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		3D13FE63193BB8A100C07162 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		3D13FE64193BB8A100C07162 /* OAuth+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OAuth+Additions.h"; sourceTree = "<group>"; };
+		3D13FE65193BB8A100C07162 /* OAuth+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OAuth+Additions.m"; sourceTree = "<group>"; };
+		3D13FE66193BB8A100C07162 /* OAuthCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthCore.h; sourceTree = "<group>"; };
+		3D13FE67193BB8A100C07162 /* OAuthCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthCore.m; sourceTree = "<group>"; };
+		3D13FE70193BB9A300C07162 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		3D13FE72193BB9A800C07162 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		3D13FE74193BB9C600C07162 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		D259235218ECA29700747F53 /* timeLapseMini.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = timeLapseMini.m4v; sourceTree = "<group>"; };
 		D259235618ECA4D900747F53 /* logoclubby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoclubby.png; sourceTree = "<group>"; };
 		D259235718ECA4D900747F53 /* logoclubby@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logoclubby@2x.png"; sourceTree = "<group>"; };
@@ -83,6 +112,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D13FE75193BB9C600C07162 /* FacebookSDK.framework in Frameworks */,
+				3D13FE73193BB9A800C07162 /* Accounts.framework in Frameworks */,
+				3D13FE71193BB9A300C07162 /* Twitter.framework in Frameworks */,
 				D296299A18EC66E30091800B /* AVFoundation.framework in Frameworks */,
 				D2EF9AF518F7132700F176E6 /* GPUImage.framework in Frameworks */,
 				D296296718EC64C90091800B /* CoreGraphics.framework in Frameworks */,
@@ -104,6 +136,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D13FE55193BB8A100C07162 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				3D13FE56193BB8A100C07162 /* Classes */,
+				3D13FE60193BB8A100C07162 /* Vendor */,
+			);
+			path = Twitter;
+			sourceTree = "<group>";
+		};
+		3D13FE56193BB8A100C07162 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3D13FE57193BB8A100C07162 /* TWAPIManager.h */,
+				3D13FE58193BB8A100C07162 /* TWAPIManager.m */,
+				3D13FE59193BB8A100C07162 /* TWAppDelegate.h */,
+				3D13FE5A193BB8A100C07162 /* TWAppDelegate.m */,
+				3D13FE5B193BB8A100C07162 /* TWSignedRequest.h */,
+				3D13FE5C193BB8A100C07162 /* TWSignedRequest.m */,
+				3D13FE5D193BB8A100C07162 /* TWViewController.h */,
+				3D13FE5E193BB8A100C07162 /* TWViewController.m */,
+				3D13FE5F193BB8A100C07162 /* TWViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3D13FE60193BB8A100C07162 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				3D13FE61193BB8A100C07162 /* ABOAuthCore */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		3D13FE61193BB8A100C07162 /* ABOAuthCore */ = {
+			isa = PBXGroup;
+			children = (
+				3D13FE62193BB8A100C07162 /* NSData+Base64.h */,
+				3D13FE63193BB8A100C07162 /* NSData+Base64.m */,
+				3D13FE64193BB8A100C07162 /* OAuth+Additions.h */,
+				3D13FE65193BB8A100C07162 /* OAuth+Additions.m */,
+				3D13FE66193BB8A100C07162 /* OAuthCore.h */,
+				3D13FE67193BB8A100C07162 /* OAuthCore.m */,
+			);
+			path = ABOAuthCore;
+			sourceTree = "<group>";
+		};
 		D259236418EDAC6400747F53 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +194,7 @@
 		D296295818EC64C90091800B = {
 			isa = PBXGroup;
 			children = (
+				3D13FE55193BB8A100C07162 /* Twitter */,
 				D296296A18EC64C90091800B /* LoginVideo */,
 				D296298918EC64CA0091800B /* LoginVideoTests */,
 				D296296318EC64C90091800B /* Frameworks */,
@@ -135,6 +214,9 @@
 		D296296318EC64C90091800B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D13FE74193BB9C600C07162 /* FacebookSDK.framework */,
+				3D13FE72193BB9A800C07162 /* Accounts.framework */,
+				3D13FE70193BB9A300C07162 /* Twitter.framework */,
 				D2EF9AF418F7132700F176E6 /* GPUImage.framework */,
 				D296299918EC66E30091800B /* AVFoundation.framework */,
 				D296296418EC64C90091800B /* Foundation.framework */,
@@ -292,6 +374,7 @@
 				D259235318ECA2A900747F53 /* timeLapseMini.m4v in Resources */,
 				D259235F18ECA9D100747F53 /* lock@2x.png in Resources */,
 				D259236018ECA9D100747F53 /* user.png in Resources */,
+				3D13FE6C193BB8A100C07162 /* TWViewController.xib in Resources */,
 				D296297D18EC64C90091800B /* Images.xcassets in Resources */,
 				D296296F18EC64C90091800B /* InfoPlist.strings in Resources */,
 				D296297818EC64C90091800B /* Main.storyboard in Resources */,
@@ -321,7 +404,14 @@
 				D296297B18EC64C90091800B /* AMLoginViewController.m in Sources */,
 				D296297518EC64C90091800B /* AppDelegate.m in Sources */,
 				D25976B518EC7E400085479D /* BlurView.m in Sources */,
+				3D13FE6F193BB8A100C07162 /* OAuthCore.m in Sources */,
+				3D13FE6E193BB8A100C07162 /* OAuth+Additions.m in Sources */,
+				3D13FE69193BB8A100C07162 /* TWAppDelegate.m in Sources */,
+				3D13FE6A193BB8A100C07162 /* TWSignedRequest.m in Sources */,
 				D296297118EC64C90091800B /* main.m in Sources */,
+				3D13FE68193BB8A100C07162 /* TWAPIManager.m in Sources */,
+				3D13FE6B193BB8A100C07162 /* TWViewController.m in Sources */,
+				3D13FE6D193BB8A100C07162 /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +541,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoginVideo/LoginVideo-Prefix.pch";
@@ -468,6 +559,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoginVideo/LoginVideo-Prefix.pch";
